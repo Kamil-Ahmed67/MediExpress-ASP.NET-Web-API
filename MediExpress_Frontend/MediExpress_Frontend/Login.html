@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="loginApp">
+<head>
+    <!-- Head content remains unchanged -->
+    <!-- ... -->
+    <link rel="stylesheet" href="Login.css">
+</head>
+<body>
+    <div class="container" ng-controller="LoginController">
+     <div class="login form">
+        <h1>Login</h1>
+        <form class="" ng-submit="login()">
+            <label>
+                Username:
+                <input type="text" ng-model="credentials.username" required>
+            </label>
+            <br>
+            <label>
+                Password:
+                <input type="password" ng-model="credentials.password" required>
+            </label>
+            <br>
+            <label>
+                User Type:
+                <select ng-model="selectedUserType" required>
+                    <option value="admin">Admin</option>
+                    <option value="pharmacist">Pharmacist</option>
+                    <option value="customer">Customer</option>
+                </select>
+            </label>
+            <br>
+            <input type="submit" class="button" value="Login">
+        </form>
+        <div class="signup">
+            <span class="signup">Don't have an account?
+             <label for="check">Signup</label>
+            </span>
+          </div>
+        </div>
+        <div class="registration form">
+          <header>Signup</header>
+          <form action="#">
+            <input type="text" placeholder="Enter your email">
+            <input type="password" placeholder="Create a password">
+            <input type="password" placeholder="Confirm your password">
+            <input type="button" class="button" value="Signup">
+          </form>
+          <div class="signup">
+            <span class="signup">Already have an account?
+             <label for="check">Login</label>
+            </span>
+          </div>
+        </div>
+     </div>
+        <div style="color: red;" ng-show="loginError" class="error-message">
+            {{ loginError }}
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+    <script src="Login.js"></script>
+    <!-- ... (other scripts) -->
+</body>
+</html>

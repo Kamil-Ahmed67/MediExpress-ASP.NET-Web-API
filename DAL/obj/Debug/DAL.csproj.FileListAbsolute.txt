@@ -1,0 +1,15 @@
+G:\Final Project\DAL\bin\Debug\DAL.dll.config
+G:\Final Project\DAL\bin\Debug\DAL.dll
+G:\Final Project\DAL\bin\Debug\DAL.pdb
+G:\Final Project\DAL\bin\Debug\EntityFramework.dll
+G:\Final Project\DAL\bin\Debug\EntityFramework.SqlServer.dll
+G:\Final Project\DAL\bin\Debug\EntityFramework.xml
+G:\Final Project\DAL\bin\Debug\EntityFramework.SqlServer.xml
+G:\Final Project\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+G:\Final Project\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+G:\Final Project\DAL\obj\Debug\DAL.csproj.CopyComplete
+G:\Final Project\DAL\obj\Debug\DAL.dll
+G:\Final Project\DAL\obj\Debug\DAL.pdb
+G:\Final Project\DAL\obj\Debug\DAL.Migrations.test.resources
+G:\Final Project\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+G:\Final Project\DAL\obj\Debug\DAL.Migrations.TokenDB.resources

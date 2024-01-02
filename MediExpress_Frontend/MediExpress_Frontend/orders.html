@@ -1,0 +1,13 @@
+<section>
+    <h2>Order List</h2>
+    <div class="order-list">
+        <div class="order" ng-repeat="order in orders">
+            <p>Customer: {{ order.customer }}</p>
+            <p>Prescription: {{ order.prescription }}</p>
+            <p>Status: {{ order.status }}</p>
+            <button ng-click="viewOrderDetails(order)">View Details</button>
+            <button ng-if="order.status === 'Pending'" ng-click="cancelOrder(order)">Cancel Order</button>
+            <button ng-if="order.status === 'Pending'" ng-click="confirmOrder(order)">Confirm Order</button>
+        </div>
+    </div>
+</section>

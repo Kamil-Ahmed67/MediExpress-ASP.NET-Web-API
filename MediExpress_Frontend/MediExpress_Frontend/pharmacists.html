@@ -1,0 +1,7 @@
+<h2>Pharmacist List</h2>
+<div ng-repeat="pharmacist in pharmacists">
+    <p>{{ pharmacist.name }}</p>
+    <button ng-click="deletePharmacist(pharmacist.id)">Delete</button>
+    <input type="text" ng-model="pharmacist.name">
+    <button ng-click="updatePharmacist(pharmacist)">Update</button>
+</div>
